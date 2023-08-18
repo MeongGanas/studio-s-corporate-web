@@ -534,10 +534,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
@@ -629,10 +625,6 @@ video {
 
 .w-\[400\%\] {
   width: 400%;
-}
-
-.w-\[400px\] {
-  width: 400px;
 }
 
 .w-full {
@@ -746,6 +738,10 @@ video {
   text-transform: uppercase;
 }
 
+.text-transparent {
+  color: transparent;
+}
+
 .shadow-xl {
   --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
@@ -806,6 +802,8 @@ body {
 }
 
 .page {
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
   padding-left: 1rem;
   padding-right: 1rem;
