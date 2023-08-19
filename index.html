@@ -11,200 +11,50 @@
     />
   </head>
   <body>
-    <!-- header -->
-    <header
-      class="left-0 right-0 top-0 bg-white absolute flex p-4 md:px-10 justify-between items-center"
-    >
-      <div class="title flex">
-        <span class="w-[16px] h-[16px] bg-black rounded-full mr-1"></span>
-        <span class="w-[16px] h-[16px] bg-black rounded-full"></span>
-      </div>
-      <nav class="text-[12px] sm:text-sm">
-        <ul class="flex items-center">
-          <li class="mr-5 sm:mr-10 uppercase"><a href="#">en</a></li>
-          <li>
-            <a href="#" class="uppercase flex items-center"
-              >contact us
-              <span class="material-symbols-outlined ml-3 -rotate-45">
-                arrow_forward
-              </span></a
-            >
-          </li>
-          <li class="ml-10">
-            <button type="button" class="block">
-              <span
-                class="w-[30px] h-[2px] bg-black rounded-sm block mb-2"
-              ></span>
-              <span class="w-[30px] h-[2px] bg-black rounded-sm block"></span>
-            </button>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <!-- pages -->
-    <section id="pages" class="py-20 w-[400%] relative flex">
-      <div class="page" id="home">
-        <div class="jumbotron">
-          <h1 class="uppercase text-4xl sm:text-6xl md:text-7xl lg:text-8xl">
-            we create
-            <span class="block my-2 ml-[15%] sm:ml-[20%]">best digital</span
-            ><span class="block">products.</span>
-          </h1>
+    <div class="overflow-hidden">
+      <!-- header -->
+      <header
+        class="left-0 right-0 top-0 bg-white absolute flex p-4 md:px-10 justify-between items-center"
+      >
+        <div class="title flex">
+          <span class="w-[16px] h-[16px] bg-black rounded-full mr-1"></span>
+          <span class="w-[16px] h-[16px] bg-black rounded-full"></span>
         </div>
-        <div class="flex items-center justify-between relative py-14">
-          <div class="relative flex">
-            <a
-              href="#"
-              class="uppercase text-center text-[12px] border rounded-[75%] border-black py-5 px-12"
-              >discuss <span class="block">the project</span></a
-            >
-            <div
-              class="circle -rotate-[24deg] absolute border border-black text-transparent rounded-[75%] uppercase text-center text-[12px] py-5 px-12"
-            >
-              discuss <span class="block">the project</span>
-            </div>
+        <nav class="text-[12px] sm:text-sm">
+          <ul class="flex items-center">
+            <li class="mr-5 sm:mr-10 uppercase"><a href="#">en</a></li>
+            <li>
+              <a href="#" class="uppercase flex items-center"
+                >contact us
+                <span class="material-symbols-outlined ml-3 -rotate-45">
+                  arrow_forward
+                </span></a
+              >
+            </li>
+            <li class="ml-10">
+              <button type="button" class="block">
+                <span
+                  class="w-[30px] h-[2px] bg-black rounded-sm block mb-2"
+                ></span>
+                <span class="w-[30px] h-[2px] bg-black rounded-sm block"></span>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- pages -->
+      <section id="pages" class="py-20 w-[400%] relative flex">
+        <div class="page" id="home">
+          <div class="jumbotron">
+            <h1 class="uppercase text-4xl sm:text-6xl md:text-7xl lg:text-8xl">
+              we create
+              <span class="block my-2 ml-[15%] sm:ml-[20%]">best digital</span
+              ><span class="block">products.</span>
+            </h1>
           </div>
-          <button
-            class="uppercase text-sm flex items-center"
-            onclick="slide('next')"
-          >
-            who we are
-            <span class="material-symbols-outlined next"> trending_flat </span>
-          </button>
-        </div>
-        <div class="w-full flex flex-wrap justify-between">
-          <h3 class="text-[12px] mb-4 md:text-sm uppercase">
-            we are the leaders in web & mobile design and development industry.
-          </h3>
-          <h3 class="text-[12px] md:w-[500px] md:text-sm">
-            We create quality content and cool ideas. We create websites,
-            applications, 3D design, motion design and animation. We bring the
-            most daring ideas to life
-          </h3>
-        </div>
-      </div>
-
-      <!-- about -->
-      <div class="page" id="about">
-        <div class="jumbotron">
-          <h1 class="uppercase text-4xl sm:text-6xl md:text-7xl">who we are</h1>
-        </div>
-        <div class="block lg:flex md:gap-20 py-20">
-          <div class="lg:w-[40%] mb-10">
-            We are creative agency designs your best product. We help companies
-            create or launch a refreshed brand, website design, and modern
-            visual communiactions.
-          </div>
-          <div class="lg:w-[40%] mb-14">
-            The company is based out of London. Our agency specialized in
-            human-centric digital experiences and improves the products every
-            single day. Together with a team of professionals we come up with
-            cool and important concepts, we will help your business reach a new
-            level.
-          </div>
-          <div class="rounded-xl h-max shadow-xl overflow-hidden">
-            <img
-              src="https://i.pinimg.com/564x/f6/62/af/f662af3b9a1cd3cf54d5ce49295bb25c.jpg"
-              alt=""
-              class="w-full"
-            />
-          </div>
-        </div>
-        <div class="slide-bar">
-          <button
-            class="uppercase text-sm flex items-center"
-            onclick="slide('prev')"
-          >
-            <span class="material-symbols-outlined back">
-              keyboard_backspace
-            </span>
-            main
-          </button>
-          <button
-            class="uppercase text-sm flex items-center"
-            onclick="slide('next')"
-          >
-            our team
-            <span class="material-symbols-outlined next"> trending_flat </span>
-          </button>
-        </div>
-      </div>
-
-      <!-- team -->
-      <div class="page" id="team">
-        <div class="jumbotron">
-          <h1 class="uppercase text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
-            our team
-          </h1>
-        </div>
-        <div class="teams flex flex-col justify-center mt-14">
-          <h3 class="uppercase text-4xl md:text-6xl mb-5 ml-10">joseph ray</h3>
-          <h3 class="uppercase text-4xl md:text-6xl mb-5">michael walker</h3>
-          <h3 class="uppercase text-4xl md:text-6xl mb-5 ml-20">
-            diana campbell
-          </h3>
-          <h3 class="uppercase text-4xl md:text-6xl mb-5 ml-5">lori houston</h3>
-          <h3 class="uppercase text-4xl md:text-6xl mb-20 ml-12">
-            theresa fuller
-          </h3>
-        </div>
-        <div class="slide-bar">
-          <button
-            class="uppercase text-sm flex items-center"
-            onclick="slide('prev')"
-          >
-            <span class="material-symbols-outlined back">
-              keyboard_backspace
-            </span>
-            who we are
-          </button>
-          <button
-            class="uppercase text-sm flex items-center"
-            onclick="slide('next')"
-          >
-            contact
-            <span class="material-symbols-outlined next"> trending_flat </span>
-          </button>
-        </div>
-      </div>
-
-      <!-- contact -->
-      <div class="page" id="contact">
-        <div class="jumbotron">
-          <h1 class="uppercase text-4xl sm:text-6xl md:text-7xl lg:text-8xl">
-            contact
-          </h1>
-        </div>
-        <div class="w-full block my-20 lg:flex lg:justify-between">
-          <form>
-            <h4 class="text-xl mb-8">Want to discuss your project?</h4>
-
-            <input
-              type="text"
-              name="username"
-              id="username"
-              placeholder="Full Name"
-              class="input"
-            />
-
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Email"
-              class="input mt-5"
-            />
-
-            <input
-              type="text"
-              name="text"
-              id="text"
-              placeholder="UI/UX Design"
-              class="input mt-5"
-            />
-
-            <div class="flex justify-end mt-10 right-0">
+          <div class="flex items-center justify-between relative py-14">
+            <div class="relative flex">
               <a
                 href="#"
                 class="uppercase text-center text-[12px] border rounded-[75%] border-black py-5 px-12"
@@ -216,37 +66,202 @@
                 discuss <span class="block">the project</span>
               </div>
             </div>
-          </form>
-          <div class="mt-20">
-            <h5 class="uppercase mb-3">location</h5>
-            <p>London, UK 07 Mason Knolis Lloydfurt WD6 5QD</p>
-            <h5 class="uppercase mt-10 mb-3">phone</h5>
-            <p>(204)564-8765</p>
+            <button
+              class="uppercase text-sm flex items-center"
+              onclick="slide('next')"
+            >
+              who we are
+              <span class="material-symbols-outlined next">
+                trending_flat
+              </span>
+            </button>
           </div>
-          <div class="mt-20">
-            <h5 class="uppercase mb-3">email</h5>
-            <p>agency@gmail.com</p>
-            <h5 class="uppercase mt-10 mb-3">social</h5>
-            <ul class="flex gap-10">
-              <li><a href="#" class="underline">facebook</a></li>
-              <li><a href="#" class="underline">twitter</a></li>
-              <li><a href="#" class="underline">instagram</a></li>
-            </ul>
+          <div class="w-full flex flex-wrap justify-between">
+            <h3 class="text-[12px] mb-4 md:text-sm uppercase">
+              we are the leaders in web & mobile design and development
+              industry.
+            </h3>
+            <h3 class="text-[12px] md:w-[500px] md:text-sm">
+              We create quality content and cool ideas. We create websites,
+              applications, 3D design, motion design and animation. We bring the
+              most daring ideas to life
+            </h3>
           </div>
         </div>
-        <div class="slide-bar">
-          <button
-            class="uppercase text-sm flex items-center"
-            onclick="slide('prev')"
-          >
-            <span class="material-symbols-outlined back">
-              keyboard_backspace
-            </span>
-            our team
-          </button>
+
+        <!-- about -->
+        <div class="page" id="about">
+          <div class="jumbotron">
+            <h1 class="uppercase text-4xl sm:text-6xl md:text-7xl">
+              who we are
+            </h1>
+          </div>
+          <div class="block lg:flex md:gap-20 py-20">
+            <div class="lg:w-[40%] mb-10">
+              We are creative agency designs your best product. We help
+              companies create or launch a refreshed brand, website design, and
+              modern visual communiactions.
+            </div>
+            <div class="lg:w-[40%] mb-14">
+              The company is based out of London. Our agency specialized in
+              human-centric digital experiences and improves the products every
+              single day. Together with a team of professionals we come up with
+              cool and important concepts, we will help your business reach a
+              new level.
+            </div>
+            <div class="rounded-xl h-max shadow-xl overflow-hidden">
+              <img
+                src="https://i.pinimg.com/564x/f6/62/af/f662af3b9a1cd3cf54d5ce49295bb25c.jpg"
+                alt=""
+                class="w-full"
+              />
+            </div>
+          </div>
+          <div class="slide-bar">
+            <button
+              class="uppercase text-sm flex items-center"
+              onclick="slide('prev')"
+            >
+              <span class="material-symbols-outlined back">
+                keyboard_backspace
+              </span>
+              main
+            </button>
+            <button
+              class="uppercase text-sm flex items-center"
+              onclick="slide('next')"
+            >
+              our team
+              <span class="material-symbols-outlined next">
+                trending_flat
+              </span>
+            </button>
+          </div>
         </div>
-      </div>
-    </section>
+
+        <!-- team -->
+        <div class="page" id="team">
+          <div class="jumbotron">
+            <h1 class="uppercase text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
+              our team
+            </h1>
+          </div>
+          <div class="teams flex flex-col justify-center mt-14">
+            <h3 class="uppercase text-4xl md:text-6xl mb-5 ml-10">
+              joseph ray
+            </h3>
+            <h3 class="uppercase text-4xl md:text-6xl mb-5">michael walker</h3>
+            <h3 class="uppercase text-4xl md:text-6xl mb-5 ml-20">
+              diana campbell
+            </h3>
+            <h3 class="uppercase text-4xl md:text-6xl mb-5 ml-5">
+              lori houston
+            </h3>
+            <h3 class="uppercase text-4xl md:text-6xl mb-20 ml-12">
+              theresa fuller
+            </h3>
+          </div>
+          <div class="slide-bar">
+            <button
+              class="uppercase text-sm flex items-center"
+              onclick="slide('prev')"
+            >
+              <span class="material-symbols-outlined back">
+                keyboard_backspace
+              </span>
+              who we are
+            </button>
+            <button
+              class="uppercase text-sm flex items-center"
+              onclick="slide('next')"
+            >
+              contact
+              <span class="material-symbols-outlined next">
+                trending_flat
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <!-- contact -->
+        <div class="page" id="contact">
+          <div class="jumbotron">
+            <h1 class="uppercase text-4xl sm:text-6xl md:text-7xl lg:text-8xl">
+              contact
+            </h1>
+          </div>
+          <div class="w-full block my-20 lg:flex lg:justify-between">
+            <form>
+              <h4 class="text-xl mb-8">Want to discuss your project?</h4>
+
+              <input
+                type="text"
+                name="username"
+                id="username"
+                placeholder="Full Name"
+                class="input"
+              />
+
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                class="input mt-5"
+              />
+
+              <input
+                type="text"
+                name="text"
+                id="text"
+                placeholder="UI/UX Design"
+                class="input mt-5"
+              />
+
+              <div class="flex justify-end mt-10 right-0">
+                <a
+                  href="#"
+                  class="uppercase text-center text-[12px] border rounded-[75%] border-black py-5 px-12"
+                  >discuss <span class="block">the project</span></a
+                >
+                <div
+                  class="circle -rotate-[24deg] absolute border border-black text-transparent rounded-[75%] uppercase text-center text-[12px] py-5 px-12"
+                >
+                  discuss <span class="block">the project</span>
+                </div>
+              </div>
+            </form>
+            <div class="mt-20">
+              <h5 class="uppercase mb-3">location</h5>
+              <p>London, UK 07 Mason Knolis Lloydfurt WD6 5QD</p>
+              <h5 class="uppercase mt-10 mb-3">phone</h5>
+              <p>(204)564-8765</p>
+            </div>
+            <div class="mt-20">
+              <h5 class="uppercase mb-3">email</h5>
+              <p>agency@gmail.com</p>
+              <h5 class="uppercase mt-10 mb-3">social</h5>
+              <ul class="flex gap-10">
+                <li><a href="#" class="underline">facebook</a></li>
+                <li><a href="#" class="underline">twitter</a></li>
+                <li><a href="#" class="underline">instagram</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="slide-bar">
+            <button
+              class="uppercase text-sm flex items-center"
+              onclick="slide('prev')"
+            >
+              <span class="material-symbols-outlined back">
+                keyboard_backspace
+              </span>
+              our team
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
 
     <script src="dist/script.js"></script>
   </body>
